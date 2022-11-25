@@ -1,0 +1,11 @@
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\bin\Debug\Project.WindowsFormsApp.exe.config
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\bin\Debug\Project.WindowsFormsApp.exe
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\bin\Debug\Project.WindowsFormsApp.pdb
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.csproj.AssemblyReference.cache
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.Form.resources
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.Properties.Resources.resources
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.csproj.GenerateResource.cache
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.csproj.CoreCompileInputs.cache
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.exe
+C:\Users\Zakir\Desktop\SQL-Injection-WinForms\Project.Solution\Project.WindowsFormsApp\obj\Debug\Project.WindowsFormsApp.pdb
