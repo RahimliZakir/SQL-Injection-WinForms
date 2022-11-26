@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 
@@ -15,14 +16,28 @@ namespace Project.WindowsFormsApp
         private void button_Click(object sender, EventArgs e)
         {
             SqlConnection con = new SqlConnection(cString);
-            SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Person]([Name], [Surname], [Age])
-                                                      VALUES(@name, @surname, @age)", con);
+            //* Bu halda ise "SQL Injection" chalishacaq!
+            SqlCommand cmd = new SqlCommand($@"INSERT INTO [dbo].[Person]([Name], [Surname], [Age])
+                                                      VALUES('{nameTextBox.Text}', '{surnameTextBox.Text}', {ageTextBox.Text})", con);
+
+            //* Parameters ile yazdigimiz zaman "SQL Injection" chalishmayacaq!
+            //SqlCommand cmd = new SqlCommand(@"INSERT INTO [dbo].[Person]([Name], [Surname], [Age])
+            //                                          VALUES(@name, @surname, @age)", con);
 
             con.Open();
 
-            cmd.Parameters.AddWithValue("@name", nameTextBox.Text);
-            cmd.Parameters.AddWithValue("@surname", surnameTextBox.Text);
-            cmd.Parameters.AddWithValue("@age", ageTextBox.Text);
+            //* Parameters ile yazdigimiz zaman "SQL Injection" chalishmayacaq!
+            //cmd.Parameters.AddWithValue("@name", nameTextBox.Text);
+
+            //* Add ile yazdigimiz zaman "Type"-i da gostermeliyik
+            //cmd.Parameters.Add(new SqlParameter
+            //{
+            //    SqlDbType = SqlDbType.NVarChar,
+            //    ParameterName = "@surname",
+            //    Value = surnameTextBox.Text
+            //});
+
+            //cmd.Parameters.AddWithValue("@age", ageTextBox.Text);
 
             cmd.ExecuteNonQuery();
 
